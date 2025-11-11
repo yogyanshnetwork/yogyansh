@@ -15,6 +15,7 @@ import CompanyIncorporation from './pages/services/CompanyIncorporation';
 import GstCertificate from './pages/services/GstCertificate';
 import StickyButtons from './components/ui/StickyButtons';
 import WebsiteDevelopment from './pages/services/WebsiteDevelopment';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       </main>
       <Footer />
       <StickyButtons />
+      <SpeedInsights />
     </div>
   );
 }
